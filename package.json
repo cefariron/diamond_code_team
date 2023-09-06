@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "diamond_code_team",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/diamond_code_team/",
     "preview": "vite preview"
   },
   "devDependencies": {
