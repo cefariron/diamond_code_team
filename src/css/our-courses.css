@@ -123,7 +123,7 @@
     }
 }
 .courses-cards-box {
-    width: 395px;
+    width: 335px;
     height: 398px;
     padding: 28px;
     border-radius: 12px;
@@ -194,7 +194,7 @@
 }
 .courses-cards-titel {
     width: 265px;
-    margin-bottom: 140px;
+    margin-bottom: 164px;
     color: var(--white);
     font-size: 28px;
     font-style: normal;
@@ -213,7 +213,7 @@
 .courses-cards-subtitel {
     width: 279px;   
     color: rgba(255, 255, 255, 0.50);
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.2;
@@ -225,6 +225,7 @@
     }
     .courses-cards-subtitel {
         width: 278px;
+        font-size: 16px;
     }
 }
 @media only screen and (min-width: 1280px) {
@@ -232,6 +233,6 @@
         max-width: 1080px;
     }
     .courses-cards-subtitel {
-        width: 283px;
+        width: 284px;
     }
 }
