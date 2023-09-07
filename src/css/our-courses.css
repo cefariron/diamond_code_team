@@ -1,14 +1,14 @@
 .container-courses {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 704px;
     }
     .container-courses {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
@@ -17,8 +17,8 @@
         max-width: 1080px;
     }
     .container-courses {
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 }
 .courses-head {
@@ -125,6 +125,7 @@
 .courses-cards-box {
     width: 395px;
     height: 398px;
+    padding: 28px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
@@ -136,6 +137,7 @@
     .courses-cards-box {
         width: 342px;
         height: 452px;
+        padding: 32px;
     }
 }
 @media only screen and (min-width: 1280px) {
@@ -147,7 +149,21 @@
         width: 400px;
     }
 }
+.courses-cards-block-1 {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-bottom: 28px;
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+    }
+    .courses-cards-block-1 {
+        margin-bottom: 32px;
+    }
+}
 .courses-cards-numbers {
+    margin-right: 233px;
     color: rgba(255, 255, 255, 0.40);
     font-size: 14px;
     font-style: normal;
@@ -172,18 +188,44 @@
 }
 .courses-cards-titel {
     width: 265px;
+    margin-bottom: 140px;
     color: var(--white);
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.14;
 }
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+    }
+    .courses-cards-titel {
+        margin-bottom: 180px;
+    }
+}
+
 .courses-cards-subtitel {
-    width: 336px;
+    width: 279px;   
     color: rgba(255, 255, 255, 0.50);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+    }
+    .courses-cards-subtitel {
+        width: 278px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1080px;
+    }
+    .courses-cards-subtitel {
+        width: 283px;
+    }
 }
