@@ -1,28 +1,76 @@
 <footer class="footer-section">
-  <div class="container footer-container">
+  <picture class="footer-picture">
+    <source
+      media="(min-width: 1280px)"
+      srcset="
+        ./images/mob-img/footer_bg_line_mob@1x.png 1x,
+        ./images/mob-img/footer_bg_line_mob@2x.png 2x
+      "
+    />
+    <source
+      media="(min-width: 768px)"
+      srcset="
+        ./images/mob-img/footer_bg_line_mob@1x.png 1x,
+        ./images/mob-img/footer_bg_line_mob@2x.png 2x
+      "
+    />
+    <source
+      media="(max-width: 767.98px)"
+      srcset="
+        ./images/mob-img/footer_bg_line_mob@1x.png 1x,
+        ./images/mob-img/footer_bg_line_mob@2x.png 2x
+      "
+    />
+    <img
+      src="./images/mob-img/footer_bg_line_mob@1x.png"
+      alt=""
+      width=""
+      height=""
+      loading="lazy"
+    />
+  </picture>
+  <div class="container">
     <h2 class="footer-logo">Focus.Frame</h2>
     <div class="footer-contacts">
       <address class="footer-address">
         <ul>
-          <li class="footer-tel">
+          <li class="link footer-tel">
             <a href="tel:+380665438912" class="link footer-address-link"
               >UK: +38 066 543 8912</a
             >
           </li>
         </ul>
-        <p>Ukraine, Kyiv</p>
+        <p class="footer-address-link-two">Ukraine, Kyiv</p>
       </address>
     </div>
     <div class="footer-block">
-      <div class="footer-social-media">
-        <ul>
-          <li><a>INSTAGRAM</a></li>
-          <li><a>FACEBOOK</a></li>
-          <li><a>YOUTUBE</a></li>
+      <div>
+        <ul class="list footer-social-media">
+          <li>
+            <a
+              class="link footer-social-links"
+              href="https://www.instagram.com/goitclub/"
+              >INSTAGRAM</a
+            >
+          </li>
+          <li>
+            <a
+              class="link footer-social-links"
+              href="https://www.facebook.com/goITclub/"
+              >FACEBOOK</a
+            >
+          </li>
+          <li>
+            <a
+              class="link footer-social-links"
+              href="https://www.youtube.com/c/GoIT"
+              >YOUTUBE</a
+            >
+          </li>
         </ul>
       </div>
-      <div class="footer-navigation">
-        <ul>
+      <div>
+        <ul class="list footer-navigation">
           <li><a>ABOUT US</a></li>
           <li><a>OUR COURSES</a></li>
           <li><a>OUR MENTORS</a></li>
@@ -44,9 +92,9 @@
         <button class="footer-button" type="submit">Go</button>
       </form>
     </div>
-    <div class="footer-privacy">
-      <p>Privacy Policy Public Offering Agreement</p>
-      <p>
+    <div class="footer-license">
+      <p class="footer-privacy">Privacy Policy Public Offering Agreement</p>
+      <p class="footer-rights">
         2023 Focus Frame
         <span>&#169;</span>All rights reserved
       </p>
