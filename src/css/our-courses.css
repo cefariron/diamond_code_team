@@ -177,14 +177,20 @@
     padding: 6px;
     border-radius: 50%;
     background-color: var(--bg-black);
-    transition: background-color var(--trans-bezier);
+    transition: background-color var(--trans-bezier), stroke var(--trans-bezier);
 }
 .courses-link:hover,
-.courses-link:focus {
+.courses-link:focus,
+.courses-link:active {
     background-color: var(--brown);
 }
 .courses-link-icon {
     stroke: #777777;
+}
+.courses-link-icon:hover,
+.courses-link-icon:focus,
+.courses-link-icon:active {
+    stroke: var(--white);
 }
 .courses-cards-titel {
     width: 265px;
