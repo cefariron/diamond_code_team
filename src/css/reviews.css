@@ -1,0 +1,183 @@
+.reviews-section {
+    padding: 96px 0;
+}
+@media screen and (min-width: 768px) {
+    .reviews-section {
+        padding: 100px 0;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .reviews-section {
+        padding: 150px 0;
+    }
+}
+
+.div-reviews{
+    max-width: 296px; 
+    padding: 0 16px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+    .div-reviews{
+        max-width: 768px; 
+        padding: 0 16px;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .div-reviews{
+        max-width: 1158px; 
+        padding: 0 15px;
+    }
+}
+
+.h-two-reviews{
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1,14em;
+    color:#FFFFFF;
+    font-style: normal;
+}
+@media screen and (min-width: 768px) {
+    .h-two-reviews{
+        margin-bottom: 50px;
+        font-size: 48px;
+        line-height: 1,12em;
+    }
+}
+
+.ull-reviews {}
+
+@media screen and (min-width: 768px) {
+    .ull-reviews {
+        display:flex;
+        gap: 0; 
+        flex-wrap: wrap;   
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .ull-reviews {
+        display: inline-flex;
+        gap: 20px; 
+        flex-wrap: nowrap;   
+        margin-left: 0;
+    }
+}
+.li-reviews {
+    padding-bottom: 0px;
+    justify-content: center;
+    border: 10px;
+    border: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+    .li-reviews { }
+}
+@media screen and (min-width: 1150px) {
+
+}
+
+.students-reviews {
+    width: 335px;
+    height: 244px;
+    border: 1px solid #FFFFFF33;
+    border-radius: 12px;
+    display: flex; 
+    padding: 20px;
+    align-items: center; 
+    justify-content: center;
+   
+}
+@media screen and (min-width: 768px) {
+    .students-reviews {
+        width: 640px;
+        height: 196px;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .students-reviews {
+        width: 610px;
+        height: 196px;
+    }
+}
+
+.img-reviews {}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1150px) {
+
+}
+
+.h-three-reviews {}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1150px) {
+
+}
+.p-students-reviews {}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1150px) {
+
+}
+
+.rating-reviews{
+    display: flex; 
+    justify-content: center; 
+    gap: 4px; 
+    list-style: none;
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1150px) {
+}
+
+.star-reviews{
+    height: 20px;    
+    width: 20px;
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1150px) {
+
+}
+
+.picture-reviews{
+    width: 100%;
+    height: 100%;
+    background-color: #BEA69E;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #BEA69E;   
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1150px) {
+
+}
+.svg-reviews {
+    fill: #BEA69E;  
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1150px) {
+
+}
+.p-reviews {}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 1150px) {
+
+}
