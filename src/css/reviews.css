@@ -1,5 +1,6 @@
 .reviews-section {
     padding: 96px 0;
+    justify-content: center;
 }
 @media screen and (min-width: 768px) {
     .reviews-section {
@@ -13,7 +14,7 @@
 }
 
 .div-reviews{
-    max-width: 296px; 
+    max-width: 375px; 
     padding: 0 16px;
     margin: 0 auto;
 }
@@ -48,9 +49,7 @@
     }
 }
 
-.ull-reviews {}
-
-@media screen and (min-width: 768px) {
+.ull-reviews {
     .ull-reviews {
         display:flex;
         gap: 0; 
@@ -67,21 +66,22 @@
     }
 }
 .li-reviews {
-    padding-bottom: 0px;
+    padding-bottom:0px;
     justify-content: center;
-    border: 10px;
-    border: #FFFFFF;
 }
-@media screen and (min-width: 768px) {
-    .li-reviews { }
+
+/**/
+.li-reviews-no-mobile{
+    display: none;
 }
 @media screen and (min-width: 1150px) {
-
+    .li-reviews {
+        display: flex;
+    }
 }
 
 .students-reviews {
-    width: 335px;
-    height: 244px;
+    width: 296px;
     border: 1px solid #FFFFFF33;
     border-radius: 12px;
     display: flex; 
@@ -93,27 +93,26 @@
 @media screen and (min-width: 768px) {
     .students-reviews {
         width: 640px;
-        height: 196px;
     }
 }
 @media screen and (min-width: 1150px) {
     .students-reviews {
         width: 610px;
-        height: 196px;
     }
 }
 
 .img-reviews {}
+
 @media screen and (min-width: 768px) {
     
 }
 @media screen and (min-width: 1150px) {
-    
+
 }
+
 
 .div-block-reviews{
     padding-left: 10px;
-    gap: 4px;
 }
 @media screen and (min-width: 768px) {
     
@@ -122,19 +121,34 @@
 
 }
 
-.h-three-reviews {}
+.h-three-reviews {
+    font-family: "DM Sans";
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1,2em;
+    margin: 0;
+    margin-bottom: 4px;
+    font-style: normal;
+}
 @media screen and (min-width: 768px) {
-    
+    .h-three-reviews {
+        line-height: 1,4em;
+    }
 }
-@media screen and (min-width: 1150px) {
-
+.p-students-reviews {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF80;
+    line-height: 1,33em;
+    margin: 0;
 }
-.p-students-reviews {}
 @media screen and (min-width: 768px) {
-    
-}
-@media screen and (min-width: 1150px) {
-
+    .p-students-reviews {
+        font-size: 14px;
+        line-height: 1,28em;
+    }
 }
 
 .rating-reviews{
@@ -142,16 +156,22 @@
     justify-content: center; 
     gap: 4px; 
     list-style: none;
+    padding-left: 60px;
 }
 @media screen and (min-width: 768px) {
-    
+    .rating-reviews{
+        padding-left: 260px;
+    }
 }
 @media screen and (min-width: 1150px) {
+    .rating-reviews{
+        padding-left: 243px;
+    }
 }
 
 .star-reviews{
-    width: 100%;
-    height: 100%;
+    width: 16px;
+    height: 16px;
     background-color: #BEA69E;
     display: flex;
     align-items: center; 
@@ -160,25 +180,28 @@
     color: #BEA69E;
 }
 @media screen and (min-width: 768px) {
-    
+    .star-reviews{
+        width: 20px;
+        height: 20px;
+    }
 }
-@media screen and (min-width: 1150px) {
-
-}
-
 .svg-reviews {
     fill: #BEA69E;  
 }
-@media screen and (min-width: 768px) {
-    
-}
-@media screen and (min-width: 1150px) {
 
+.p-reviews {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1,2em;
+    margin: 0;
+    margin-top: 20px;
 }
-.p-reviews {}
 @media screen and (min-width: 768px) {
-    
-}
-@media screen and (min-width: 1150px) {
-
+    .p-reviews {
+        font-size: 16px;
+        line-height: 1,25em;
+    }
 }
