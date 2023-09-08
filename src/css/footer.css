@@ -164,4 +164,18 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+  }
+  .footer-address {
+    margin: 0;
+  }
+  .footer-block {
+    margin: 0;
+  }
 }
