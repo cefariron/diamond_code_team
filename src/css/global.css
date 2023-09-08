@@ -82,6 +82,9 @@ ul {
     padding: 20px 20px 80px 20px;
 
     background-image: url(../images/mob-img/bg_line_mob@1x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -166,6 +169,7 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
+
     .courses-section,
     .mentors-section,
     .sign-up-section,
@@ -175,6 +179,7 @@ ul {
 }
 
 @media only screen and (min-width: 1280px) {
+
     .courses-section,
     .mentors-section,
     .sign-up-section,
