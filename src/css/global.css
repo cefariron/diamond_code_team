@@ -82,7 +82,7 @@ ul {
     padding: 20px 20px 80px 20px;
 
     background-image: url(../images/mob-img/bg_line_mob@1x.png);
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -169,6 +169,7 @@ background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 768px) {
+
     .courses-section,
     .mentors-section,
     .sign-up-section,
@@ -178,6 +179,7 @@ background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 1280px) {
+
     .courses-section,
     .mentors-section,
     .sign-up-section,
