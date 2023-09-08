@@ -6,14 +6,16 @@
   background-image: url(../images/mob-img/footer_bg_line_mob@1x.png);
 }
 
-.footer-address {
+.footer-address-container {
   margin-top: 20px;
-  display: inline-flex;
-  height: 46px;
+  display: flex;
+}
+
+.footer-address {
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
-  flex-shrink: 0;
+  gap: 10px;
 }
 
 .footer-address-link {
@@ -170,6 +172,49 @@
 @media only screen and (min-width: 768px) {
   .footer-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+  }
+
+  .footer-address-container {
+    margin-top: 25px;
+  }
+
+  .footer-logo {
+  }
+
+  .footer-block {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 75px;
+    flex-wrap: nowrap;
+  }
+
+  .footer-form-container {
+  }
+
+  .footer-input {
+    width: 178px;
+  }
+
+  .footer-license {
+    margin-top: 74px;
+  }
+
+  .footer-form {
+    margin-left: 46px;
+  }
+
+  .footer-navigation {
+    text-align: start;
+  }
+
+  .footer-license {
+    gap: 399px;
+  }
+  .footer-privacy {
   }
 }
