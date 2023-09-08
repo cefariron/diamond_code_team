@@ -84,7 +84,7 @@ ol {
     background-image: url(../images/mob-img/bg_line_mob@1x.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: coverbackground-repeat: no-repeat;
+    background-size: coverbackground-repeat, no-repeat;
     background-position: center;
     background-size: cover;
 }
