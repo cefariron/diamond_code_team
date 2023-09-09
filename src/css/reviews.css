@@ -65,6 +65,7 @@
     padding: 20px;
     align-items: flex-start; 
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
     .students-reviews {
@@ -77,9 +78,13 @@
     }
 }
 
+.div-reviews-personality{
+ 
+}
+
 
 .div-block-reviews{
-    margin-left: 10px;
+
 }
 
 
@@ -109,19 +114,9 @@
     display: flex; 
     justify-content: center; 
     gap: 4px; 
-    list-style: none;
-    margin-left: 60px;
+    list-style: none;  
 }
-@media screen and (min-width: 768px) {
-    .rating-reviews{
-        margin-left: 260px;
-    }
-}
-@media screen and (min-width: 1280px) {
-    .rating-reviews{
-        margin-left: 243px;
-    }
-}
+
 
 .star-reviews{
     width: 16px;
