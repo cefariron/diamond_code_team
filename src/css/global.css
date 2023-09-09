@@ -77,14 +77,13 @@ ol {
     padding: 0;
     margin: 0;
 }
+
 .bg-header-hero {
     width: 100%;
     padding: 20px 20px 80px 20px;
 
     background-image: url(../images/mob-img/bg_line_mob@1x.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: coverbackground-repeat, no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -143,7 +142,8 @@ ol {
     }
 }
 
-.advert-section {
+
+.ticker-section {
     padding: 0;
 }
 
