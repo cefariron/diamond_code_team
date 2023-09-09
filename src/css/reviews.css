@@ -1,9 +1,4 @@
 
-.div-reviews{
-    max-width: 100%;
-    margin: auto;
-}
-
 
 .h-two-reviews{
     margin-bottom: 40px;
@@ -40,13 +35,6 @@
 .li-reviews-no-mobile{
     display: none;
 }
-
-@media screen and (min-width: 768px) {
-    .li-reviews-no-mobile {
-        margin: 0 auto;
-    }
-}
-
 @media screen and (min-width: 1280px) {
     .li-reviews {
         display: flex;
@@ -68,7 +56,7 @@
 }
 @media screen and (min-width: 1280px) {
     .students-reviews {
-        width: 610px;
+        width: 530px;
     }
 }
 
