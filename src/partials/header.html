@@ -1,5 +1,49 @@
 <header class="header-section">
-    <div class="container">
+  <div class="header-box container">
+    <nav class="header-nav">
+      <a class="" href="./index.html">
+        <svg class="header-logo" width="123" height="16">
+          <use href="../images/sprite.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="header-title list">
+        <li><a class="header-menu link" href="">About us</a></li>
+        <li><a class="header-menu link" href="">Our courses</a></li>
+        <li><a class="header-menu link" href="">Our mentors</a></li>
+        <li><a class="header-menu link" href="">Reviews</a></li>
+        <li><a class="header-menu link" href="">contacts</a></li>
+      </ul>
+      <button
+        class="menu-burger js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="header-burger" width="32" height="22">
+          <use href="../images/sprite.svg#icon-nav"></use>
+        </svg>
+      </button>
+    </nav>
+    <a class="header-sign list" href="">SIGN UP</a>
+  </div>
+  
+  <div class="menu-backdrop js-menu-container" id="mobile-menu">
+    <div class="menu-container">
+    <button class="menu-close-burger js-close-menu">
+      <svg class="modal-close" width="32" height="32">
+        <use href="../images/sprite.svg#icon-x"></use>
+      </svg>
+    </button>
 
+    <ul class="mobile-menu list">
+        <li><a class="mobile-menu-burger link" href="">About us</a></li>
+        <li><a class="mobile-menu-burger link" href="">Our courses</a></li>
+        <li><a class="mobile-menu-burger link" href="">Our mentors</a></li>
+        <li><a class="mobile-menu-burger link" href="">Reviews</a></li>
+        <li><a class="mobile-menu-burger link" href="">contacts</a></li>
+      </ul>
+
+    <img class="header-imagine" 
+    src="../images/mob-img/Rectangle_6_mob@1x.png"  
+    alt=""></div>
     </div>
 </header>
