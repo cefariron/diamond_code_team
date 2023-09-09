@@ -1,70 +1,71 @@
 /* ROOT */
 
 :root {
-    --black: #121212;
-    --brown: #BEA69E;
-    --white: #FFF;
-    --bg-black: #1D1D1D;
-    --bg-black-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
-    --trans-bezier: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --black: #121212;
+  --brown: #bea69e;
+  --white: #fff;
+  --bg-black: #1d1d1d;
+  --bg-black-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --trans-bezier: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --gray: rgba(255, 255, 255, 0.5);
 }
 
 /* GLOBAL STYLES */
 
 body {
-    font-family: DM Sans;
-    color: var(--white);
+  font-family: DM Sans;
+  color: var(--white);
 
-    background-color: var(--black);
+  background-color: var(--black);
 }
 
 .container {
-    max-width: 335px;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 335px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
-    .container {
-        max-width: 704px;
-    }
+  .container {
+    max-width: 704px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .container {
-        max-width: 1080px;
-    }
+  .container {
+    max-width: 1080px;
+  }
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link,
 .list {
-    text-decoration: none;
-    list-style: none;
+  text-decoration: none;
+  list-style: none;
 }
 
 a,
@@ -79,129 +80,126 @@ ol {
 }
 
 .bg-header-hero {
-    width: 100%;
-    padding: 20px 20px 80px 20px;
+  width: 100%;
+  padding: 20px 20px 80px 20px;
 
-    background-image: url(../images/mob-img/bg_line_mob@1x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-image: url(../images/mob-img/bg_line_mob@1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .bg-header-hero {
-        background-image: url(../images/mob-img/bg_line_mob@2x.png);
-    }
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .bg-header-hero {
+    background-image: url(../images/mob-img/bg_line_mob@2x.png);
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .bg-header-hero {
-        padding: 20px 32px 100px 32px;
-        background-image: url(../images/tab-img/bg_line_tab@1x.png);
-    }
+  .bg-header-hero {
+    padding: 20px 32px 100px 32px;
+    background-image: url(../images/tab-img/bg_line_tab@1x.png);
+  }
 }
 
 @media only screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .bg-header-hero {
-        background-image: url(../images/tab-img/bg_line_tab@2x.png);
-    }
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .bg-header-hero {
+    background-image: url(../images/tab-img/bg_line_tab@2x.png);
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .bg-header-hero {
-        padding: 20px 100px 150px 100px;
-        background-image: url(../images/desk-img/bg_line_desk@1x.png);
-    }
+  .bg-header-hero {
+    padding: 20px 100px 150px 100px;
+    background-image: url(../images/desk-img/bg_line_desk@1x.png);
+  }
 }
 
 @media only screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .bg-header-hero {
-        background-image: url(../images/desk-img/bg_line_desk@2x.png);
-    }
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .bg-header-hero {
+    background-image: url(../images/desk-img/bg_line_desk@2x.png);
+  }
 }
 
 .header-section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .header-section {
-        margin-bottom: 40px;
-    }
+  .header-section {
+    margin-bottom: 40px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .header-section {
-        margin-bottom: 80px;
-    }
+  .header-section {
+    margin-bottom: 80px;
+  }
 }
-
 
 .ticker-section {
     padding: 0;
 }
 
 .about-section {
-    padding: 80px 20px;
+  padding: 80px 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .about-section {
-        padding: 100px 32px;
-    }
+  .about-section {
+    padding: 100px 32px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .about-section {
-        padding: 150px 100px;
-    }
+  .about-section {
+    padding: 150px 100px;
+  }
 }
 
 .courses-section,
 .mentors-section,
 .sign-up-section,
 .reviews-section {
-    padding: 0 20px 80px 20px;
+  padding: 0 20px 80px 20px;
 }
 
 @media only screen and (min-width: 768px) {
-
-    .courses-section,
-    .mentors-section,
-    .sign-up-section,
-    .reviews-section {
-        padding: 0 32px 100px 32px;
-    }
+  .courses-section,
+  .mentors-section,
+  .sign-up-section,
+  .reviews-section {
+    padding: 0 32px 100px 32px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-
-    .courses-section,
-    .mentors-section,
-    .sign-up-section,
-    .reviews-section {
-        padding: 0 100px 150px 100px;
-    }
+  .courses-section,
+  .mentors-section,
+  .sign-up-section,
+  .reviews-section {
+    padding: 0 100px 150px 100px;
+  }
 }
 
 .footer-section {
-    padding: 40px 20px 20px 20px;
+  padding: 40px 20px 20px 20px;
 }
 
 @media only screen and (min-width: 768px) {
-    .footer-section {
-        padding: 50px 32px 25px 32px;
-    }
+  .footer-section {
+    padding: 50px 32px 25px 32px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .footer-section {
-        padding: 50px 100px 25px 100px;
-    }
+  .footer-section {
+    padding: 50px 100px 25px 100px;
+  }
 }
