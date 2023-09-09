@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-top: #1d1d1d;
 }
 
 @media (min-device-pixel-ratio: 2),
