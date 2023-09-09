@@ -72,7 +72,8 @@ h1,
 h2,
 h3,
 p,
-ul {
+ul,
+ol {
     padding: 0;
     margin: 0;
 }
@@ -141,7 +142,8 @@ ul {
     }
 }
 
-.advert-section {
+
+.ticker-section {
     padding: 0;
 }
 
