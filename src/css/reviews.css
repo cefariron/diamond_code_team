@@ -16,16 +16,13 @@
 }
 
 .ull-reviews {
-    display:flex;
-    gap: 0; 
-    flex-wrap: wrap;   
+    display:flex; 
 }
 
 @media screen and (min-width: 1280px) {
     .ull-reviews {
         display: inline-flex;
-        gap: 20px; 
-        flex-wrap: nowrap;   
+        gap: 20px;  
     }
 }
 
@@ -35,6 +32,13 @@
 .li-reviews-no-mobile{
     display: none;
 }
+
+@media screen and (min-width: 768px) {
+    .li-reviews {
+    margin: 0 auto;
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .li-reviews {
         display: flex;
@@ -70,7 +74,6 @@
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 4px;
-    font-style: normal;
 }
 
 
@@ -121,12 +124,8 @@
 }
 
 .p-reviews {
-    font-family: "DM Sans";
-    font-weight: 400;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.2;
-    margin: 0;
     margin-top: 20px;
 }
 @media screen and (min-width: 768px) {
