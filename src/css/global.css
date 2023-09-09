@@ -73,9 +73,10 @@ h1,
 h2,
 h3,
 p,
-ul {
-  padding: 0;
-  margin: 0;
+ul,
+ol {
+    padding: 0;
+    margin: 0;
 }
 
 .bg-header-hero {
@@ -142,8 +143,8 @@ ul {
   }
 }
 
-.advert-section {
-  padding: 0;
+.ticker-section {
+    padding: 0;
 }
 
 .about-section {
