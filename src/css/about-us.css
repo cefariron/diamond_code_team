@@ -1,28 +1,83 @@
-.about-section {
-}
-
-.container {
-}
-
-.about-titl {
-}
-
-.about-partitle {
-  color: var(--brown);
-}
-.about-titl,
-.about-partitle {
+.about-title {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
 }
-@media (min-widht: ) {
+
+.about-title-span-color {
+  color: var(--brown);
 }
-.about-text {
-  display: flex;
+
+@media only screen and (min-width: 768px) {
+  .about-title {
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 50px;
+  }
+}
+
+.about-picture {
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-picture {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-picture {
+    margin-bottom: 0;
+  }
+}
+
+.about-description-text {
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.28;
-  margin-top: 20px;
-  /* padding-top: 20px; */
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-description-text {
+    max-width: 280px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.about-description-text:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-description-text:nth-child(1) {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-description-text:nth-child(1) {
+    max-width: 268px;
+  }
+  .about-description-text:nth-child(2) {
+    max-width: 264px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-description-block {
+    display: flex;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-block {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
 }
