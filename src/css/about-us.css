@@ -62,6 +62,7 @@
   .about-description-text:nth-child(1) {
     max-width: 268px;
   }
+
   .about-description-text:nth-child(2) {
     max-width: 264px;
   }
