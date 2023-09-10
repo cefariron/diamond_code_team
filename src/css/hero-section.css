@@ -6,7 +6,7 @@
 
 
 
-.hero-section {
+.hero-contant {
 	border-radius: 30px;
 	background: #1D1D1D;
 	/* padding-left: 20px;
@@ -59,6 +59,19 @@
 	margin-bottom: 31px;
 	padding-left: 20px;
 }
+.hero-list-link {
+	color: var(--white);
+	font-size: 14px;
+	line-height: 1.28;
+	letter-spacing: -0.04em;
+	max-width: 67px;
+}
+.item-text-link{
+	display: flex;
+	gap: 4px;
+	align-items: center;
+	/* flex-direction: ; */
+}
 .list-item-second{
 	display: flex;
 	gap: 12px;
@@ -77,7 +90,6 @@
 	line-height: 1.12;
 	letter-spacing: -0.04em;
 }
-
 .star-content{
 	background-color: var(--brown);
 	border-radius: 50%;
@@ -85,12 +97,8 @@
 	height: 44px;
 }
 
-.hero-list-link{
-	color: var(--white);
-	font-size: 14px;
-	line-height: 1.28;
-	letter-spacing: -0.04em;
-}
+
+
 
 .hero-guy-content{
 	padding-right: 38px;
@@ -100,14 +108,20 @@
 
 /**
 	|============================
-	| HERO-MEDIA_TABLET
+	| HERO-MEDIA
 	|============================
 */
 
+@media (min-width: 1280px) {
+	.hero-contant {
+		display: flex;
+	}
+}
+
+
 
 @media (min-width: 768px){
-
-	.hero-title{
+	.hero-title {
 		font-size: 60px;
 		line-height: 1.06;
 		max-width: 517px;
@@ -115,27 +129,76 @@
 		padding-left: 32px;
 		padding-top: 64px;
 	}
-	.hero-title-span{
+}
+@media (min-width: 1280px){
+	.hero-title {
+		font-size: 64px;
+		padding-left: 60px;
+		min-width: 563px;
+		padding-top: 80px;
+	}
+}
+
+
+
+@media (min-width: 768px) {
+	.hero-title-span {
 		font-size: 60px;
 		line-height: 1.06;
 	}
-	.hero-text{
+}
+@media (min-width: 1280px) {
+	.hero-title-span {
+		font-size: 64px;
+	}
+}
+
+
+
+
+@media (min-width: 768px) {
+	.hero-text {
 		max-width: 418px;
 		padding-left: 32px;
 		padding-right: 0;
 	}
+}
+@media (min-width: 1280px) {
+	.hero-text{
+		padding-left: 60px;
+		min-width: 418px;
+		margin-bottom: 136px;
+	}
+}
 
 
 
-
+@media (min-width: 768px) {
 	.hero-list{
 		padding-left: 32px;
 		margin-bottom: 40px;
 	}
+}
+@media (min-width: 1280px) {
+	.hero-list{
+		padding-left: 60px;
+	}
+}
+
+
+
+
+
+@media (min-width: 768px) {
 	.hero-list-item{
 		display: flex;
 		gap: 12px;
 	}
+}
+
+
+
+@media (min-width: 768px) {
 	.hero-list-link{
 		font-size: 16px;
 		line-height: 1.25;
@@ -144,70 +207,52 @@
 		flex-direction: column;
 		gap: 8px;
 	}
+}
+
+
+@media (min-width: 768px) {
 	.hero-list-arrow{
 		width: 18px;
 	}
+}
+
+
+@media (min-width: 768px) {
 	.star-content{
 		width: 50px;
 		height: 50px;
 	}
+}
+
+
+
+@media (min-width: 768px) {
 	.item-text-reviews{
 		font-size: 16px;
 		line-height: 1.25;
 		margin-bottom: 8px;
 	}
+}
+
+
+@media (min-width: 768px) {
 	.item-text-number{
 			line-height: 1.25;
 	}
+}
 
 
-
+@media (min-width: 768px) {
 	.hero-guy-content{
 		padding-left: 155px;
 		padding-right: 155px;
 	}
 }
-
-
-/**
-	|============================
-	| HERO-MEDIA_DESKTOP
-	|============================
-*/
-
-@media (min-width: 1280px){
-	
-	.hero-contant{
-		display: flex;
-	}
-	
-	.hero-title{
-		font-size: 64px;
-		padding-left: 60px;
-		min-width: 563px;
-		padding-top: 80px;
-	}
-	.hero-title-span{
-		font-size: 64px;
-	}
-	.hero-text{
-		padding-left: 60px;
-		min-width: 418px;
-		margin-bottom: 136px;
-	}
-
-
-	.hero-list{
-		padding-left: 60px;
-	}
-
-
-
+@media (min-width: 1280px) {
 	.hero-guy-content{
 		margin-left: 20px;
 		padding-left: 0;	
 		padding-right: 0;
 		padding-top: 80px;
 	}
-
 }
