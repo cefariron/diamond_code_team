@@ -12,7 +12,7 @@
     <symbol id="icon-arrow_2_stroke" viewBox="0 0 58 32">
       <path fill="#fff" style="fill:var(--color1, #fff)" d="M40 2.144 57.6 16 40 29.856V18.4H0v-4.8h40V2.144z" />
     </symbol>
-    <symbol id="icon-arrow_narrow_up_right" viewBox="0 0 32 32">
+    <symbol id="icon-arrow-narrow-up-right" viewBox="0 0 32 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.08" d="M8 24 24 8M13.333 8H24v10.667" />
     </symbol>
     <symbol id="icon-bi_camera_fill" viewBox="0 0 32 32">
