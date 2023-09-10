@@ -52,18 +52,18 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .ticker_line {
-    font-size: 40px;
-    line-height: 1.25;
-  }
+    .ticker_line {
+        font-size: 40px;
+        line-height: 1.25;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
     .ticker_line {
-      font-size: 59px;
-      line-height: 1.08;
+        font-size: 59px;
+        line-height: 1.08;
     }
-  }
+}
 
 @keyframes tickerLine {
     from {

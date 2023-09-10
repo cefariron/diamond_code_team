@@ -75,8 +75,8 @@ h3,
 p,
 ul,
 ol {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .bg-header-hero {
@@ -90,8 +90,8 @@ ol {
 }
 
 @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .bg-header-hero {
     background-image: url(../images/mob-img/bg_line_mob@2x.png);
   }
@@ -105,8 +105,8 @@ ol {
 }
 
 @media only screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .bg-header-hero {
     background-image: url(../images/tab-img/bg_line_tab@2x.png);
   }
@@ -120,8 +120,8 @@ ol {
 }
 
 @media only screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .bg-header-hero {
     background-image: url(../images/desk-img/bg_line_desk@2x.png);
   }
@@ -144,7 +144,7 @@ ol {
 }
 
 .ticker-section {
-    padding: 0;
+  padding: 0;
 }
 
 .about-section {
@@ -171,6 +171,7 @@ ol {
 }
 
 @media only screen and (min-width: 768px) {
+
   .courses-section,
   .mentors-section,
   .sign-up-section,
@@ -180,6 +181,7 @@ ol {
 }
 
 @media only screen and (min-width: 1280px) {
+
   .courses-section,
   .mentors-section,
   .sign-up-section,
