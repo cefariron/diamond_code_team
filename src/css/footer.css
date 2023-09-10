@@ -129,15 +129,16 @@
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
+  transition: var(--trans-bezier);
 }
 
 .navigation-classes:hover,
 .navigation-classes:focus {
-  transition: var(--trans-bezier);
   color: var(--brown);
 }
 
 .footer-privacy {
+  color: #fff;
   font-size: 12px;
   line-height: 1.33em;
 }
@@ -165,11 +166,11 @@
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
+  transition: var(--trans-bezier);
 }
 
 .footer-social-links:hover,
 .footer-social-links:focus {
-  transition: var(--trans-bezier);
   color: var(--brown);
 }
 
