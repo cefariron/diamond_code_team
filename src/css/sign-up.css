@@ -10,6 +10,10 @@ letter-spacing: -1.12px;
 margin-bottom: 20px;
 }
 
+  .sign-up-section-img {
+    display: none;
+  }
+
 
 
 .sign-up-section_up{
@@ -46,12 +50,26 @@ margin-bottom: 20px;
     color: #fff;
     opacity: 0.7;
     transition: var(--trans-bezier);
+    outline: none;
 }
 
-.sign-up-section_form_input:active{
-    opacity: 0;
+
+.sign-up-section_form_input:focus {
     color: #FFF;
+    border: 1px solid #fff;
+
 }
+
+
+.sign-up-section_form_input:active{
+    color: #FFF;
+    border: 1px solid #fff;
+ 
+}
+
+
+
+
 
 .form_input-name{
     margin-bottom: 8px;
@@ -63,12 +81,11 @@ margin-bottom: 20px;
 
 .form_input-message{
     margin-bottom: 40px;
-}
-
-.form_input-message{
     padding-top: 15px;
     height: 112px;
 }
+
+
 
 .sign-up-section_button{
     width: 100%;
@@ -103,14 +120,151 @@ margin-bottom: 20px;
     word-spacing: -1px;
 }
 
+.tagline_br-mob{
+    display: none;
+}
+
+.sign-up-section_form_input{
+    resize: none
+}
+
 
 
 
 @media only screen and (min-width: 768px){
 
+    .sign-up-section-img{
+        display: none;
+    }
+
+    .sign-up-section_form_input{
+        width: 480px;
+        font-size: 16px;
+        line-height: 1.25;
+        
+    }
+    
+    
+    .sign-up-section_headline{
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -1.92px;
+
+        }
+
+    .sign-up-section_up{
+        color: #BEA69E;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -1.92px;
+    }
+    
+    .sign-up-section_tagline{
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.32px;
+    }
+
+
+
+ 
+
+    .form_input-name {
+        margin-bottom: 14px;
+        height: 59px;
+        
+    }
+    .form_input-tel {
+        margin-bottom: 13px;
+        height: 59px;
+    }
+    .form_input-message{
+        height: 119px;
+        margin-bottom: 40px;
+    }
+    .sign-up-section_button{
+        width: 480px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .tagline_br-tablet{
+        display: none;
+    }
+
+    .tagline_br-mob {
+        display: block;
+    }
+
+    .sign-up-section_privacy-policy{
+        font-size: 14px;
+    }
+
+
+
 }
 
 @media only screen and (min-width: 1280px){
+
+
+.sign-up-section_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+
+.sign-up-section-img {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px ;
+   
+    
+}
+
+.sign-up-section_form{
+    display: flex;
+    flex-direction: column
+}
+
+.img-block-left{
+    width: 180px;
+    height: 280px;
+    border-radius: 1000px;
+    background-color: #BEA69E;
+ 
+}
+
+.cartoon-left {
+    padding: 76px 0px;
+}
+
+.img-block-right{
+    width: 340px;
+    height: 540px;
+    border-radius: 1000px;
+    background-color: #1D1D1D;
+}
+
+.cartoon-right{
+    margin: 156px auto;
+
+}
+
+.form_input-message{
+    width: 480px;
+}
+
+
+
+
+
 
 }
 
