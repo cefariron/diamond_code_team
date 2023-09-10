@@ -27,3 +27,15 @@ hero
 
 https://github.com/cefariron/diamond_code_team/pull/12
 https://github.com/cefariron/diamond_code_team/pull/17
+
+sign up
+
+https://github.com/cefariron/diamond_code_team/pull/14
+
+header
+
+https://github.com/cefariron/diamond_code_team/pull/9
+
+footer
+
+https://github.com/cefariron/diamond_code_team/pull/11
