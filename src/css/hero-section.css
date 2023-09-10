@@ -109,6 +109,11 @@
 	}
 }
 
+.hero-list-star{
+	fill: var(--brown);
+	stroke: var(--black);
+}
+
 .hero-list-link {
 	color: var(--white);
 	font-size: 14px;
