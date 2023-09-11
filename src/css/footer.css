@@ -146,6 +146,8 @@
   text-align: center;
   font-size: 20px;
   line-height: 120%;
+
+  transition: var(--trans-bezier);
 }
 
 .footer-button:hover,

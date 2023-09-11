@@ -64,6 +64,8 @@
   font-size: 14px;
   line-height: normal;
   text-transform: uppercase;
+  
+  transition: var(--trans-bezier);
 }
 
 
@@ -106,6 +108,8 @@
   font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
+
+  transition: var(--trans-bezier);
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -121,7 +125,8 @@
 }
 
 .header-sign:hover,
-.header-sign:focus {
+.header-sign:focus,
+.header-sign:active {
   background: var(--bg-black);
   color: var(--brown);
 }
@@ -207,6 +212,8 @@
   color: var(--black);
   font-size: 14px;
   text-transform: uppercase;
+
+  transition: var(--trans-bezier);
 }
 
 .mobile-menu-burger:hover,
