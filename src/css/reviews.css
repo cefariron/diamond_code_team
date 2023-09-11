@@ -110,8 +110,7 @@
 
 .star-reviews {
     width: 16px;
-    height: 16px;
-    background-color: var(--brown);
+    height: 16px;   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,6 +123,14 @@
         width: 20px;
         height: 20px;
     }
+}
+
+.svg-reviews{
+    fill: var(--brown);
+}
+
+.svg-reviews-last{
+    fill: #414141;
 }
 
 .p-reviews {
