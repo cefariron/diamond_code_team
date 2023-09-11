@@ -140,6 +140,7 @@
 }
 
 .courses-cards-titel {
+    max-width: 265px;
     margin-bottom: 164px;
     font-size: 28px;
     font-weight: 500;
@@ -148,7 +149,6 @@
 
 @media only screen and (min-width: 768px) {
     .courses-cards-titel {
-        max-width: 265px;
         margin-bottom: 180px;
     }
 }
