@@ -12,6 +12,10 @@
 
 /* GLOBAL STYLES */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: DM Sans;
   color: var(--white);
@@ -82,7 +86,7 @@ ol {
 
 .bg-header-hero {
   width: 100%;
-  padding: 20px 20px 80px 20px;
+  padding: 90px 20px 80px 20px;
 
   background-image: url(../images/mob-img/bg_line_mob@1x.png);
   background-repeat: no-repeat;
@@ -92,14 +96,14 @@ ol {
 
 @media only screen and (min-width: 768px) {
   .bg-header-hero {
-    padding: 20px 32px 100px 32px;
+    padding: 120px 32px 100px 32px;
     background-image: url(../images/tab-img/bg_line_tab@1x.png);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .bg-header-hero {
-    padding: 20px 100px 150px 100px;
+    padding: 160px 100px 150px 100px;
     background-image: url(../images/desk-img/bg_line_desk@1x.png);
   }
 }
@@ -142,18 +146,24 @@ ol {
 
 .courses-section,
 .mentors-section,
-.sign-up-section,
+.sign-up-section {
+  padding: 80px 20px 0 20px;
+}
+
 .reviews-section {
-  padding: 0 20px 80px 20px;
+  padding: 80px 20px 80px 20px;
 }
 
 @media only screen and (min-width: 768px) {
 
   .courses-section,
   .mentors-section,
-  .sign-up-section,
+  .sign-up-section {
+    padding: 100px 32px 0 32px;
+  }
+
   .reviews-section {
-    padding: 0 32px 100px 32px;
+    padding: 100px 32px 100px 32px;
   }
 }
 
@@ -161,9 +171,12 @@ ol {
 
   .courses-section,
   .mentors-section,
-  .sign-up-section,
+  .sign-up-section {
+    padding: 150px 100px 0 100px;
+  }
+
   .reviews-section {
-    padding: 0 100px 150px 100px;
+    padding: 150px 100px 150px 100px;
   }
 }
 
