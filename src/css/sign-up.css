@@ -220,6 +220,7 @@
     }
 
     .img-block-left {
+        position: relative;
         width: 180px;
         height: 280px;
         border-radius: 1000px;
@@ -228,9 +229,9 @@
     }
 
     .cartoon-left {
-        position: relative;
-        top: 76px;
-        left: 19px;
+        position: absolute;
+        top: 25%;
+        left: -15%;
     }
 
     .img-block-right {
