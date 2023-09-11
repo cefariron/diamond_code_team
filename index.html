@@ -324,9 +324,9 @@
                 shortly.</p>
             <form class="sign-up-section-form" action="#">
                 <input class="form-input-name sign-up-section-form-input" name="user-name" type="text" id="user-name"
-                    placeholder="Enter your name">
-                <input class="form-input-tel sign-up-section-form-input" name="user-phone" type="tel" id="user-phone"
-                    placeholder="Enter your email">
+                    placeholder="Enter your name" pattern="^[a-zA-Z]+$">
+                <input class="form-input-tel sign-up-section-form-input" name="user-phone" type="email" id="user-phone"
+                    placeholder="Enter your email" pattern="[\x1F-\xBF]*">
                 <textarea class="form-input-message sign-up-section-form-input" name="user-message" id="user-message"
                     rows="5" placeholder="Message"></textarea>
                 <button class="sign-up-section-button" type="submit">Send</button>
