@@ -113,6 +113,7 @@
   max-width: 267px;
   width: 100%;
   height: 60px;
+  padding-left: 18px;
   border-radius: 12px;
   border: 1px solid var(--white);
   background: var(--white);
@@ -130,8 +131,8 @@
   }
 }
 
-.footer-input::placeholder {
-  padding-left: 18px;
+.footer-input:focus {
+  outline: none;
 }
 
 .footer-button {
@@ -186,8 +187,10 @@
 }
 
 .navigation-classes:hover,
-.navigation-classes:focus {
+.navigation-classes:focus,
+.navigation-classes:active {
   color: var(--brown);
+  cursor: pointer;
 }
 
 .footer-privacy-container {
