@@ -247,7 +247,7 @@
         width: 340px;
         height: 540px;
         border-radius: 1000px;
-        background-color: var(--black);
+        background-color: var(--bg-black);
     }
 
     .cartoon-right {
