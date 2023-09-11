@@ -35,6 +35,7 @@ https://github.com/cefariron/diamond_code_team/pull/14
 header
 
 https://github.com/cefariron/diamond_code_team/pull/9
+https://github.com/cefariron/diamond_code_team/pull/18
 
 footer
 
