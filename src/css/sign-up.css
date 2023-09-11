@@ -1,36 +1,23 @@
-
-
 .sign-up-section-headline{
-    color: #fff;
-    font-family: DM Sans;
     font-weight: 500;
     font-size: 28px;
     line-height: 1.14;
-    letter-spacing: -1.12px;
+    letter-spacing: -0.04em;
     margin-bottom: 20px;
 }
-
 
 @media only screen and (min-width: 768px) {
     .sign-up-section-headline {
     font-size: 48px;
     font-weight: 500;
     line-height: 1.12;
-    letter-spacing: -1.92px;
+    letter-spacing: -0.04em;
     
 }
-    
-    
-   
 }
 
 .sign-up-section-img {
     display: none;
-}
-@media only screen and (min-width: 768px) {
-.sign-up-section-img {
-    display: none;
-}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -41,14 +28,11 @@
     margin-bottom: 38px;
     
     
-        }
-
+}
 }
 
-
-
 .sign-up-section-up{
-    color: #BEA69E;
+    color: var(--brown);
     font-family: DM Sans;
     font-weight: 500;
     font-size: 28px;
@@ -56,19 +40,19 @@
     letter-spacing: -1.12px;
     margin-bottom: 20px;
 }
+
 @media only screen and (min-width: 768px) {
         .sign-up-section-up {
-        color: #BEA69E;
+        color: var(--brown);
         font-size: 48px;
         font-weight: 500;
         line-height: 1.12;
         letter-spacing: -1.92px;
 }
- 
 }
 
 .sign-up-section-tagline{
-    color: #FFF;
+    color: var(--white);
     font-family: DM Sans;
     font-size: 14px;
     font-weight: 400;
@@ -79,14 +63,13 @@
 
 @media only screen and (min-width: 768px) {
         .sign-up-section-tagline {
-        color: #FFF;
+        color: var(--white);
         font-size: 16px;
         font-style: normal;
          font-weight: 400;
         line-height: 1.25;
         letter-spacing: -0.32px;
 }
-
 }
 
 .sign-up-section-form-input{
@@ -98,7 +81,7 @@
     padding-left: 16px;
     padding-right: 16px;
     font-size: 14px;
-    color: #fff;
+    color: var(--white);
     opacity: 0.7;
     transition: var(--trans-bezier);
     outline: none;
@@ -112,49 +95,38 @@
     line-height: 1.25;
     height: 60px;
 }
-
 }
-
 
 .sign-up-section-form-input:focus {
-    color: #FFF;
-    border: 1px solid #fff;
+    color: var(--white);
+    border: 1px solid var(--white);
 
 }
-
 
 .sign-up-section-form-input:active{
-    color: #FFF;
-    border: 1px solid #fff;
-
- 
+    color: var(--white);
+    border: 1px solid var(--white);
 }
-
-
-
-
 
 .form-input-name{
     margin-bottom: 8px;
 }
 
 @media only screen and (min-width: 768px) {
-        .form-input-name {
-        margin-bottom: 14px;
-    }
-
+    .form-input-name {
+     margin-bottom: 14px;
+}
 }
 
 .form-input-tel{
     margin-bottom: 7px;
 }
+
 @media only screen and (min-width: 768px) {
 .form-input-tel {
     margin-bottom: 13px;
 }
-
 }
-
 
 .form-input-message{
     margin-bottom: 40px;
@@ -167,22 +139,18 @@
         height: 119px;
         margin-bottom: 40px;
 }
-
 }
 
 @media only screen and (min-width: 1280px) {
     .form-input-message {
         max-width: 480px;
 }
-
 }
-
-
 
 .sign-up-section-button{
     width: 100%;
     border-radius: 12px;
-    background-color: #FFF;
+    background-color: var(--white);
     padding-top: 14px;
     padding-bottom: 14px;
     font-family: DM Sans;
@@ -201,7 +169,6 @@
         padding-bottom: 16px;
         font-size: 18px;
 }
-
 }
 
 .sign-up-section-privacy-policy{
@@ -210,13 +177,13 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 1.33;
-   }
+}
+
 @media only screen and (min-width: 768px) {
     .sign-up-section-privacy-policy {
             font-size: 14px;
             line-height: 1.2;
 }
-
 }
 
 .privacy-policy-span{
@@ -236,23 +203,16 @@
     .tagline-br-mob {
     display: block;
 }
- 
 }
-
-
-
 
 @media only screen and (min-width: 768px){
     
     .tagline-br-tablet{
         display: none;
-    }
-
+}
 }
 
 @media only screen and (min-width: 1280px){
-
-
 .sign-up-section-container{
     display: flex;
     justify-content: center;
@@ -260,17 +220,11 @@
     gap: 60px;
 }
 
-
-.sign-up-section-form{
-    display: flex;
-    flex-direction: column
-}
-
 .img-block-left{
     width: 180px;
     height: 280px;
     border-radius: 1000px;
-    background-color: #BEA69E;
+    background-color:var(--brown);
  
 }
 
@@ -282,13 +236,12 @@
     width: 340px;
     height: 540px;
     border-radius: 1000px;
-    background-color: #1D1D1D;
+    background-color:var(--bg-black);
 }
 
 .cartoon-right{
     margin: 156px auto;
 
 }
-
 }
 
