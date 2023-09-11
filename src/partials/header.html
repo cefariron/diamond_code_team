@@ -1,0 +1,89 @@
+<header class="header-section">
+  <div class="header-box container">
+    <nav class="header-nav">
+      <a class="" href="./index.html">
+        <svg class="header-logo" width="123" height="16">
+          <use href="../images/sprite.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="header-title list">
+        <li><a class="header-menu link" href="#about-us">About us</a></li>
+        <li><a class="header-menu link" href="#our-courses">Our courses</a></li>
+        <li><a class="header-menu link" href="#our-mentors">Our mentors</a></li>
+        <li><a class="header-menu link" href="#reviews">Reviews</a></li>
+        <li><a class="header-menu link" href="#contacts">contacts</a></li>
+      </ul>
+       <div class="header-button-icon">
+        <a
+          href="#sign-up"
+          class="">
+        <svg class="header-icon" width="16" height="16">
+        <use href="../images/sprite.svg#icon-bi_camera_fill"></use>
+      </svg></a>
+  </div> 
+      <button
+        class="menu-burger js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="header-burger" width="32" height="22">
+          <use href="../images/sprite.svg#icon-nav"></use>
+        </svg>
+      </button>
+    </nav>
+    <a class="header-sign list" href="#sign-up">SIGN UP</a>
+  </div>
+
+  <div class="menu-backdrop js-menu-container" id="mobile-menu">
+    <div class="menu-container">
+      <button class="menu-close-burger js-close-menu">
+        <svg class="modal-close" width="32" height="32">
+          <use href="../images/sprite.svg#icon-x"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li>
+          <a class="mobile-menu-burger link" href="#about-us">About us</a>
+        </li>
+        <li>
+          <a class="mobile-menu-burger link" href="#our-courses">Our courses</a>
+        </li>
+        <li>
+          <a class="mobile-menu-burger link" href="#our-mentors">Our mentors</a>
+        </li>
+        <li><a class="mobile-menu-burger link" href="#reviews">Reviews</a></li>
+        <li>
+          <a class="mobile-menu-burger link" href="#contacts">contacts</a>
+        </li>
+      </ul>
+      <!-- <img
+      srcset="./images/mob-img/header-mob@1x.jpg 1x, ./images/mob-img/header-mob@2x.jpg 2x"
+        src="./images/mob-img/header-mob@1x.jpg"
+        alt="girl"
+        width="329"
+        height="260"> -->
+     <picture class="header-imagine">
+        
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../images/tab-img/header-table@1x.jpg 1x,
+            ../images/tab-img/header-table@2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          srcset="
+            ../images/mob-img/header-mob@1x.jpg 1x,
+            ../images/mob-img/header-mob@2x.jpg 2x
+          "
+        />
+        <img
+          src="../images/mob-img/header-mob@1x.jpg"
+          alt="camera"
+          loading="lazy"
+        />
+      </picture>
+  </div>
+</header>
