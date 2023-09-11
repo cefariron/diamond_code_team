@@ -9,11 +9,13 @@
 
 .header-section {
 }
+
 .header-box {
   display: flex;
   align-items: center;
   gap: 14px;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -24,18 +26,20 @@
   justify-content: space-between;
   padding: 17px 20px;
 }
-@media (min-width:768px){
+
+@media only screen and(min-width:768px){
   .header-nav{
     padding: 22px 20px;
   }
 }
-@media (min-width:1280px){
+
+@media only screen and(min-width:1280px){
   .header-nav{
     padding: 22px 50px;
   }
 }
 
-@media screen(min-width:1280px;){
+@media only screen and(min-width:1280px;){
   .header-box{
     gap:20px;
   }
@@ -48,15 +52,18 @@
   display: flex;
   gap: 28px;
 }
+
 .header-menu:hover,
 .header-menu:focus {
   color: #bea69e;
 }
-@media (max-width: 1279.98px) {
+
+@media only screen and(max-width: 1279.98px) {
   .header-title {
     display: none;
   }
 }
+
 .header-menu {
   color: #fff;
   font-size: 14px;
@@ -66,6 +73,7 @@
 
 .header-burger {
 }
+
 .header-button-icon {
   width: 32px;
   height: 32px;
@@ -79,10 +87,9 @@
 
 .header-icon {
   fill: var(--brown);
-  
 }
 
-@media (min-width:767.98px) {
+@media only screen and(min-width:767.98px) {
   .header-button-icon {
     display: none;
   }
@@ -102,16 +109,19 @@
   line-height: 1.5;
   text-transform: uppercase;
 }
-@media (max-width: 767.98px) {
+
+@media only screen and(max-width: 767.98px) {
   .header-sign {
     display: none;
   }
 }
-@media screen (min-width: 1280px) {
+
+@media only screen and(min-width: 1280px) {
   .header-sign {
     width: 236px;
   }
 }
+
 .menu-burger {
   width: 32px;
   height: 22px;
@@ -126,11 +136,13 @@
   border-radius: 50%;
   outline: none;
 }
-@media (min-width: 1280px) {
+
+@media only screen and(min-width: 1280px) {
   .menu-burger {
     display: none;
   }
 }
+
 .menu-burger:hover,
 .menu-burger:focus {
   background-color: rgba(0, 0, 0, 0.1);
@@ -176,12 +188,13 @@
   list-style: none;
 }
 
-@media (min-width: 768px){
+@media only screen and(min-width: 768px){
   .mobile-menu {
     padding: 0 64px;
     gap: 28px;
 }
 }
+
 .mobile-menu .link {
   display: block;
 }
@@ -201,6 +214,7 @@
 .modal-close {
 stroke: #121212;
 }
+
 .menu-close-burger {
   width: 32px;
   height: 32px;
@@ -212,6 +226,7 @@ stroke: #121212;
   align-items: center;
   justify-content: center;
 }
+
 .header-imagine {
 
 } 
