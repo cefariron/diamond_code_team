@@ -1,25 +1,36 @@
 .hero-contant {
 	border-radius: 30px;
 	background: var(--bg-black);
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+	.hero-contant {
+		padding-top: 64px;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
 }
 
 @media (min-width: 1280px) {
 	.hero-contant {
 		display: flex;
+		padding-top: 80px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }
 
 .hero-title {
 	margin-bottom: 20px;
-	
+
 	font-size: 40px;
 	font-weight: 500;
 	line-height: 1.1;
 	letter-spacing: -0.04em;
-	padding-top: 40px;
 	min-width: 295px;
-	padding-right: 20px;
-	padding-left: 20px;
 }
 
 @media (min-width: 768px) {
@@ -27,18 +38,13 @@
 		font-size: 60px;
 		line-height: 1.06;
 		max-width: 517px;
-		padding-right: 0;
-		padding-left: 32px;
-		padding-top: 64px;
 	}
 }
 
 @media (min-width: 1280px) {
 	.hero-title {
 		font-size: 64px;
-		padding-left: 60px;
 		min-width: 563px;
-		padding-top: 80px;
 	}
 }
 
@@ -70,21 +76,16 @@
 	letter-spacing: -0.02em;
 	margin-bottom: 40px;
 	min-width: 295px;
-	padding-right: 20px;
-	padding-left: 20px;
 }
 
 @media (min-width: 768px) {
 	.hero-text {
 		max-width: 418px;
-		padding-left: 32px;
-		padding-right: 0;
 	}
 }
 
 @media (min-width: 1280px) {
 	.hero-text {
-		padding-left: 60px;
 		min-width: 418px;
 		margin-bottom: 136px;
 	}
@@ -94,23 +95,15 @@
 	display: flex;
 	gap: 40px;
 	margin-bottom: 31px;
-	padding-left: 20px;
 }
 
 @media (min-width: 768px) {
 	.hero-list {
-		padding-left: 32px;
 		margin-bottom: 40px;
 	}
 }
 
-@media (min-width: 1280px) {
-	.hero-list {
-		padding-left: 60px;
-	}
-}
-
-.hero-list-star{
+.hero-list-star {
 	fill: var(--brown);
 	stroke: var(--black);
 }
