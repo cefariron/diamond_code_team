@@ -176,7 +176,7 @@
 }
 
 .sign-up-section-privacy-policy {
-    color: rgba(255, 255, 255, 0.50);
+    color: var(--gray);
     font-size: 12px;
     line-height: 1.33;
 }
@@ -188,7 +188,8 @@
     }
 }
 
-.privacy-policy-span {
+.privacy-policy-link {
+    color: var(--gray);
     text-decoration: underline;
     font-size: 12px;
     line-height: 1.33;

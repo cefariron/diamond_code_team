@@ -68,6 +68,13 @@
 .div-reviews-personality {
     display: flex;
     gap: 10px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .div-reviews-personality {
+    margin-bottom: 23px;
+  }
 }
 
 
@@ -96,14 +103,15 @@
     justify-content: center;
     gap: 4px;
     list-style: none;
-    margin-top: 5px;
     margin-left: 60px;
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
     .rating-reviews {
         margin-top: 0;
         margin-left: 0;
+        margin-bottom: 23px;
     }
 }
 
@@ -136,7 +144,6 @@
 .p-reviews {
     font-size: 14px;
     line-height: 1.2;
-    margin-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
