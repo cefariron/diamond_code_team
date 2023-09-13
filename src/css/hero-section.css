@@ -132,6 +132,10 @@
 	align-items: center;
 }
 
+.item-text-link:hover {
+	color: var(--brown);
+}
+
 @media (min-width: 768px) {
 	.item-text-link {
 		display: block;
